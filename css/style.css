@@ -65,3 +65,17 @@ body {
 .contact_numbers span {
   font-size: 20px;
 }
+
+.nav_items {
+  display: flex;
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.nav_links {
+  color: #1b6fb6;
+  font-size: 14px;
+  text-decoration: none;
+  margin-right: 30px;
+}

@@ -5,10 +5,10 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Verdana, Geneva, Tahoma, sans-serif;
   color: #5c5c5c;
-  font-size: 14px;
-  background: #fff;
+  font-size: 13px;
+  background: linear-gradient(to right, #d8f1fa, #fff);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -20,7 +20,48 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1020px;
   margin-inline: auto;
-  padding-inline: 15px;
+  padding-inline: 19px;
+}
+
+.header {
+  padding: 48px 0 40px;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.header_inner {
+  background: linear-gradient(to right, transparent 0%, transparent 50%, #4c9ede 50%, #4c9ede 100%);
+}
+
+.header_img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-42%);
+  height: 100%;
+  width: auto;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_numbers {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 20px 23px 17px 0;
+  text-align: right;
+}
+
+.contact_numbers p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.contact_numbers span {
+  font-size: 20px;
 }

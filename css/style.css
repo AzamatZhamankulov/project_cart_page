@@ -79,3 +79,132 @@ body {
   text-decoration: none;
   margin-right: 30px;
 }
+
+.main_content {
+  display: flex;
+}
+
+.catalog_title {
+  color: #3b3d81;
+  font-size: 22px;
+  font-weight: 800;
+  margin: 30px 0 20px;
+}
+
+.catalog_list {
+  list-style: none;
+  margin: 40px 0 0;
+  padding: 0;
+}
+
+.catalog_item {
+  padding: 15px 70px 15px 0;
+}
+
+.catalog_item_link {
+  color: #1b6fb6;
+  padding: 15px 70px 15px 60px;
+  border-top: 1px dotted #5c5c5c;
+}
+
+.icon_brush {
+  background: url(/images/icon_brush.png) 0 50% no-repeat;
+}
+
+.icon_spiral {
+  background: url(/images/icon_spiral.png) 0 50% no-repeat;
+}
+
+.icon_layer {
+  background: url(/images/icon_layers.png) 0 50% no-repeat;
+  border-bottom: 1px dotted #5c5c5c;
+}
+
+.table_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order_sum {
+  margin: 10px 0 20px;
+  padding-left: 55px;
+  padding-top: 10px;
+  background: url(/images/icon_loader.png) 0 50% no-repeat;
+}
+
+.order_sum p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.sum_txt {
+  font-size: 11px;
+}
+
+.sum_rub {
+  font-size: 18px;
+  color: #2d2d2d;
+  font-weight: 500;
+}
+
+.order_table {
+  margin: 0;
+}
+
+.order_table th:first-child {
+  width: 17%;
+}
+
+.order_table th:nth-child(2) {
+  width: 45%;
+}
+
+.order_table th:nth-child(3) {
+  width: 10%;
+}
+
+.order_table th:nth-child(5) {
+  width: 10%;
+}
+
+.order_table th:nth-child(4),
+.order_table th:nth-child(6) {
+  width: 9%;
+}
+
+.order_table input {
+  width: 55px;
+  text-align: center;
+}
+
+.order_table button {
+  height: 18px;
+  width: 20px;
+  background: url(/images/icon_remove_btn.png) 50% 50% no-repeat;
+  margin-left: 35%;
+}
+
+.table_cost {
+  text-align: end;
+}
+
+.order_table td {
+  padding: 15px 0;
+}
+
+.order_table th {
+  padding: 0 0 5px;
+  border-bottom: 1px dotted #5c5c5c;
+}
+
+.order_table td {
+  border-bottom: 1px dotted #5c5c5c;
+}
+
+.recalculate {
+  color: #1b6fb6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
